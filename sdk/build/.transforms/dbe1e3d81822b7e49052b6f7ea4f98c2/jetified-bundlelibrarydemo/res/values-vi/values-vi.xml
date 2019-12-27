@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">Hủy</string>
+    <string name="u_confirm">Cập nhật</string>
+    <string name="u_content">Một phiên bản mới có sẵn, tải về ngay bây giờ?</string>
+    <string name="u_current_progress">Tiến độ hiện tại:</string>
+    <string name="u_download_complete">Đã hoàn tất tải xuống, nhấp vào để cài đặt</string>
+    <string name="u_downloading">Đang tải xuống</string>
+    <string name="u_not_net">Mạng không được kết nối</string>
+    <string name="u_not_upgrade_tip">Phiên bản của bạn là phiên bản mới nhất</string>
+    <string name="u_start_download">Bắt đầu tải xuống</string>
+    <string name="u_title">Trình cập nhật phiên bản</string>
+    <string name="u_wifi_cancel">Một lát sau</string>
+    <string name="u_wifi_confirm">Cập nhật</string>
+</resources>

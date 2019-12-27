@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="upgrade_btn_size">80dp</dimen>
+    <dimen name="upgrade_btn_size_max">160dp</dimen>
+</resources>

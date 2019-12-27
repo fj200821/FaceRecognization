@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">Отмена</string>
+    <string name="u_confirm">Обновить</string>
+    <string name="u_content">Доступна новая версия, скачайте сейчас?</string>
+    <string name="u_current_progress">Текущий прогресс:</string>
+    <string name="u_download_complete">Загрузка завершена, нажмите ее для установки</string>
+    <string name="u_downloading">загрузка</string>
+    <string name="u_not_net">Сеть не подключена</string>
+    <string name="u_not_upgrade_tip">Ваша версия является последней</string>
+    <string name="u_start_download">Начать загрузку</string>
+    <string name="u_title">Обновление версии</string>
+    <string name="u_wifi_cancel">Позже</string>
+    <string name="u_wifi_confirm">Обновить</string>
+</resources>

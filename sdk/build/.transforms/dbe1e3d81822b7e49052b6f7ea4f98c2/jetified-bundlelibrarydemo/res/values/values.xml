@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notify_icon_padding">4dp</dimen>
+    <dimen name="notify_icon_size">44dp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_large_s">17sp</dimen>
+    <dimen name="text_size_large_ss">16sp</dimen>
+    <dimen name="text_size_middle">15sp</dimen>
+    <dimen name="text_size_middle_s">14sp</dimen>
+    <dimen name="text_size_middle_ss">13sp</dimen>
+    <dimen name="text_size_mini">9sp</dimen>
+    <dimen name="text_size_mini_s">8sp</dimen>
+    <dimen name="text_size_mini_ss">7sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_small_s">11sp</dimen>
+    <dimen name="text_size_small_ss">10sp</dimen>
+    <dimen name="upgrade_btn_size">100dp</dimen>
+    <dimen name="upgrade_btn_size_max">200dp</dimen>
+    <string name="app_name">crypt</string>
+    <string name="u_cancel">Cancel</string>
+    <string name="u_confirm">Update</string>
+    <string name="u_content">A new version is available, download now?</string>
+    <string name="u_current_progress">Current progress:</string>
+    <string name="u_download_complete">Download completed, click it for installation</string>
+    <string name="u_downloading">Downloading</string>
+    <string name="u_not_net">Network is not connected</string>
+    <string name="u_not_upgrade_tip">Your version is the latest</string>
+    <string name="u_start_download">Start downloading</string>
+    <string name="u_title">Version updater</string>
+    <string name="u_wifi_cancel">Later</string>
+    <string name="u_wifi_confirm">Update</string>
+    <style name="AdTheme" parent="FullScreenTheme">
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <!--<item name="android:clipToPadding">false</item>-->
+    </style>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="FullScreenTheme" parent="@android:style/Theme.Wallpaper.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="miui:windowTranslucentStatus">transparentDark</item>-->
+    </style>
+    <style name="NotificationContent" parent="android:TextAppearance.StatusBar.EventContent"/>
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TransparentDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 屏幕背景不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/adv_activity_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/adv_activity_in</item>
+    </style>
+</resources>

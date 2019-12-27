@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aiwinn.module.bundle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <meta-data
+            android:name="SDK_VERSION"
+            android:value="2.0.8" />
+        <meta-data
+            android:name="ADV_CHANNEL"
+            android:value="CH_F100_AIWINN" />
+
+        <activity
+            android:name="com.aiwinn.adv.library.module.AdShowActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/AdTheme" /> <!-- webview -->
+        <activity
+            android:name="com.aiwinn.adv.library.module.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/AdTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.aiwinn.adv.library.module.AdShowNoWebviewActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/AdTheme" />
+        <activity
+            android:name="com.aiwinn.adv.library.module.LicenseActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.aiwinn.adv.library.module.UpgradeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseDialog"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- android:excludeFromRecents="true" -->
+        <!-- android:taskAffinity="" -->
+        <service
+            android:name="com.aiwinn.adv.library.CoreService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.aiwinn.adv.intent.CoreService" />
+
+                <category android:name="com.aiwinn.adv.library" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </service>
+        <service android:name="com.aiwinn.adv.library.CoreService$InnerService" />
+
+        <receiver
+            android:name="com.aiwinn.adv.library.AdSysReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.aiwinn.aiwinnapp.action" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.aiwinn.adv.library.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.aiwinn.adv.ACTION_ARARM" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.aiwinn.adv.library.NotifyReceiver" >
+            <intent-filter>
+                <action android:name="com.aiwinn.adv.ACTION_NOTIFICATION_CLICK" />
+                <action android:name="com.aiwinn.adv.ACTION_NOTIFICATION_CLOSE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProviderUtil"
+            android:authorities="${applicationId}.util.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

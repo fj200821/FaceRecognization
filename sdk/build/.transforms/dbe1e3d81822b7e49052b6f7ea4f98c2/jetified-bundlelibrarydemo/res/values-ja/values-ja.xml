@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">キャンセル</string>
+    <string name="u_confirm">更新</string>
+    <string name="u_content">新しいバージョンが入手できます。今すぐダウンロードできますか？</string>
+    <string name="u_current_progress">現在の進捗状況：</string>
+    <string name="u_download_complete">ダウンロードが完了したら、それをクリックしてインストールしてください</string>
+    <string name="u_downloading">ダウンロード</string>
+    <string name="u_not_net">ネットワークが接続されていません</string>
+    <string name="u_not_upgrade_tip">あなたのバージョンは最新です</string>
+    <string name="u_start_download">ダウンロードを開始する</string>
+    <string name="u_title">バージョンアップデータ</string>
+    <string name="u_wifi_cancel">後で</string>
+    <string name="u_wifi_confirm">更新</string>
+</resources>

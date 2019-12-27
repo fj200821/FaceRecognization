@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">Batal</string>
+    <string name="u_confirm">Kemas kini</string>
+    <string name="u_content">Versi baru tersedia, muat turun sekarang?</string>
+    <string name="u_current_progress">kemajuan semasa:</string>
+    <string name="u_download_complete">Muat turun selesai, klik untuk pemasangan</string>
+    <string name="u_downloading">Memuat turun</string>
+    <string name="u_not_net">Rangkaian tidak disambung</string>
+    <string name="u_not_upgrade_tip">versi anda adalah yang terbaru</string>
+    <string name="u_start_download">mula dimuat-turun</string>
+    <string name="u_title">versi Pengemaskinian</string>
+    <string name="u_wifi_cancel">kemudian</string>
+    <string name="u_wifi_confirm">Kemas kini</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">Cancelar</string>
+    <string name="u_confirm">Atualizar</string>
+    <string name="u_content">Está disponível uma nova versão, faça o download agora?</string>
+    <string name="u_current_progress">Progresso atual:</string>
+    <string name="u_download_complete">Download concluído, clique nele para instalação</string>
+    <string name="u_downloading">Fazendo download</string>
+    <string name="u_not_net">A rede não está conectada</string>
+    <string name="u_not_upgrade_tip">Sua versão é a mais recente</string>
+    <string name="u_start_download">Iniciar o download</string>
+    <string name="u_title">Atualizador de versão</string>
+    <string name="u_wifi_cancel">Mais tarde</string>
+    <string name="u_wifi_confirm">Atualizar</string>
+</resources>

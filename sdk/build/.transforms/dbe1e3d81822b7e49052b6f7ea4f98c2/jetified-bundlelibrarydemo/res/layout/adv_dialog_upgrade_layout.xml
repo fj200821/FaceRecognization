@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/adv_bg_corner"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="15dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            tools:text="@string/u_title" />
+
+        <View
+            android:id="@+id/title_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d9d9d9"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/content_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="11"
+            android:minHeight="40dp"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            tools:text="@string/u_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d9d9d9"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/adv_upgrade_cancel_btn_style"
+                android:minWidth="@dimen/upgrade_btn_size"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                tools:text="@string/u_cancel" />
+
+            <View
+                android:id="@+id/cancel_line"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/adv_upgrade_confirm_btn_style"
+                android:minWidth="@dimen/upgrade_btn_size"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                tools:text="@string/u_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

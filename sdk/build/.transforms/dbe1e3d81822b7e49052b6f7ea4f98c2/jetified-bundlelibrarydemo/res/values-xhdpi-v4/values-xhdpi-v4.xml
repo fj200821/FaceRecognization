@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notify_icon_padding">4dp</dimen>
+    <dimen name="notify_icon_size">44dp</dimen>
+    <dimen name="upgrade_btn_size">100dp</dimen>
+    <dimen name="upgrade_btn_size_max">200dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">रद्द करना</string>
+    <string name="u_confirm">अद्यतन</string>
+    <string name="u_content">एक नया संस्करण उपलब्ध है, अब डाउनलोड करें?</string>
+    <string name="u_current_progress">वर्तमान प्रगति:</string>
+    <string name="u_download_complete">डाउनलोड पूरा, स्थापना के लिए इसे क्लिक करें</string>
+    <string name="u_downloading">डाउनलोड कर रहा है</string>
+    <string name="u_not_net">नेटवर्क कनेक्ट नहीं है</string>
+    <string name="u_not_upgrade_tip">आपका संस्करण नवीनतम है</string>
+    <string name="u_start_download">डाउनलोड करना प्रारंभ करें</string>
+    <string name="u_title">संस्करण अपडेटर</string>
+    <string name="u_wifi_cancel">बाद में</string>
+    <string name="u_wifi_confirm">अद्यतन</string>
+</resources>

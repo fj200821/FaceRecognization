@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">暂不更新</string>
+    <string name="u_confirm">立即更新</string>
+    <string name="u_content">检测到最新版本, 是否要升级?</string>
+    <string name="u_current_progress">当前进度：</string>
+    <string name="u_download_complete">下载完成，点击安装</string>
+    <string name="u_downloading">正在下载</string>
+    <string name="u_not_net">网络未连接</string>
+    <string name="u_not_upgrade_tip">已经是最新版本</string>
+    <string name="u_start_download">开始下载</string>
+    <string name="u_title">版本更新</string>
+    <string name="u_wifi_cancel">我再考虑</string>
+    <string name="u_wifi_confirm">免流量更新</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">إلغاء</string>
+    <string name="u_confirm">تحديث</string>
+    <string name="u_content">إصدار جديد متاح، تحميل الآن؟</string>
+    <string name="u_current_progress">التقدم الحالي:</string>
+    <string name="u_download_complete">اكتمل التنزيل، انقر عليه للتثبيت</string>
+    <string name="u_downloading">جارى التحميل</string>
+    <string name="u_not_net">الشبكة غير متصلة</string>
+    <string name="u_not_upgrade_tip">الإصدار هو الأحدث</string>
+    <string name="u_start_download">ابدأ التنزيل</string>
+    <string name="u_title">الشبكة غير متصلة</string>
+    <string name="u_wifi_cancel">في وقت لاحق</string>
+    <string name="u_wifi_confirm">تحديث</string>
+</resources>

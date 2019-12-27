@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_cancel">ยกเลิก</string>
+    <string name="u_confirm">ปรับปรุง</string>
+    <string name="u_content">มีเวอร์ชันใหม่ให้ดาวน์โหลดเดี๋ยวนี้หรือไม่?</string>
+    <string name="u_current_progress">ความคืบหน้าปัจจุบัน:</string>
+    <string name="u_download_complete">ดาวน์โหลดเสร็จแล้วคลิ๊กเพื่อติดตั้ง</string>
+    <string name="u_downloading">ดาวน์โหลด</string>
+    <string name="u_not_net">เครือข่ายไม่ได้เชื่อมต่อ</string>
+    <string name="u_not_upgrade_tip">รุ่นของคุณเป็นรุ่นล่าสุด</string>
+    <string name="u_start_download">เริ่มดาวน์โหลด</string>
+    <string name="u_title">ตัวอัพเดตเวอร์ชัน</string>
+    <string name="u_wifi_cancel">ต่อมา</string>
+    <string name="u_wifi_confirm">ปรับปรุง</string>
+</resources>
